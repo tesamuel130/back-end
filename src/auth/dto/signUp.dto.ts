@@ -12,5 +12,5 @@ export class SignUpDto {
     @IsNotEmpty()
     @IsString()
     @MinLength(6)
-    readonly passport: string;
+    readonly password: string;
 }
